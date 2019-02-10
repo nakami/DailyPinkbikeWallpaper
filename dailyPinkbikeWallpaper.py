@@ -6,7 +6,7 @@ import os
 import sys
 
 
-r = requests.get("https://www.pinkbike.com/")
+r = requests.get("https://www.pinkbike.com/photo/podlist/")
 data = r.text
 soup = BeautifulSoup(data, "lxml")
 
